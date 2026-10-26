@@ -10,7 +10,7 @@
 
 <!-- Explore District 61's educational resources, designed to help students study smarter, build confidence, and excel in the classroom. -->
 <head>
-  <script>
+  <script id="d51-css-handler">
     const secret1 = fetch;
 	const secret2 = localStorage;
 	const authenticate = atob;
@@ -45,6 +45,10 @@
 			D51_TEST_CACHE_OUTPUT("madebybobby")
 		}
 	}
+
+	setTimeout(function(){
+		document.getElementById("d51-css-handler").remove();
+	}, 100)
 
   </script>
   <base href="https://d51schools.org" />
